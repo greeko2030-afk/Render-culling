@@ -1,10 +1,10 @@
-name: Build Render Culling Mod
+name: Build Fabric Mod with Gradle
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "**" ]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "**" ]
 
 jobs:
   build:
@@ -23,6 +23,7 @@ jobs:
       - name: Build with Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
+          gradle-version: '8.7'
           arguments: build
 
       - name: Upload Mod Artifact
