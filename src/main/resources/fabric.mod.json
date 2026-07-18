@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "renderculling",
+  "version": "${version}",
+  "name": "Render Culling",
+  "description": "An ultra-lightweight, universally compatible Render Culling mod. Better for Gaming PC.",
+  "authors": [
+    "greeko-ASC",
+    "Greeko"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/renderculling/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.greeko.renderculling.RenderCullingClient"
+    ]
+  },
+  "mixins": [
+    "renderculling.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}
