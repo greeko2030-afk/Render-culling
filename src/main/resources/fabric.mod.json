@@ -3,7 +3,7 @@
   "id": "renderculling",
   "version": "${version}",
   "name": "Render Culling",
-  "description": "An ultra-lightweight, universally compatible Render Culling mod. Better for Gaming PC.",
+  "description": "An ultra-lightweight Render Culling mod by Greeko. Better for Gaming PC.",
   "authors": [
     "greeko-ASC",
     "Greeko"
@@ -22,7 +22,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.15.11",
-    "minecraft": ">=1.21",
+    "minecraft": "1.21.x",
     "java": ">=21"
   }
 }
